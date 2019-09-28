@@ -17,13 +17,15 @@ function multiply(a,b) {
 
 
 function inc(n) {
-  let number = n;
-  return n++
+  let number = ParseInt(n);
+  return number++
 }
 
 function dec(n) {
   return n--
 }
+
+
 
 function makeInt(n) {
   return parseInt(n)
