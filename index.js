@@ -17,7 +17,7 @@ function multiply(a,b) {
 
 
 function inc(n) {
-  let number = ParseInt(n);
+  let number = n;
   return number++
 }
 
