@@ -17,12 +17,11 @@ function multiply(a,b) {
 
 
 function inc(n) {
-  let number = n;
-  return number++
+  return ++n
 }
 
 function dec(n) {
-  return n--
+  return --n
 }
 
 
