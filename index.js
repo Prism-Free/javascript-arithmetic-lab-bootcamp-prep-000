@@ -10,13 +10,14 @@ function multiply(a,b) {
   return parseInt(a * b)
 }
 
-function divide(a,b) {
-  return (a / b)
-}
+//function divide(a,b) {
+ // return (a / b)
+//}
 
 
 
 function inc(n) {
+  let number = n;
   return n++
 }
 
