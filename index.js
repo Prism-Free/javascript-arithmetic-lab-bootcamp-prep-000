@@ -17,11 +17,11 @@ function divide(a,b) {
 
 
 function inc(n) {
-  return parseFloat(n++)
+  return parseInt(n++)
 }
 
 function dec(n) {
-  return parseFloat(n--)
+  return parseInt(n--)
 }
 
 function makeInt(n) {
